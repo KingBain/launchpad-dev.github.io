@@ -1,9 +1,9 @@
 [languages]
-    [none]
-        weight = 1
-        languageName = ""
-        contentDir = "content/splash"
-        title = "GC Private Cloud / Nuage privé du GC"
+    # [none]
+    #     weight = 1
+    #     languageName = ""
+    #     contentDir = "content/splash"
+    #     title = "GC Private Cloud / Nuage privé du GC"
 
     [en]
         disabled = false
@@ -12,7 +12,7 @@
         contentDir = "content/en"
         # Weight used for sorting.
         weight = 2
-        title = "GC Private Cloud"
+        title = "GCCO: LaunchPad"
         [en.params]
             description = "Sovereign cloud hosting for the Government of Canada"
             time_format_default = "2006-01-02"
@@ -27,7 +27,7 @@
         languageCode = 'fr-CA'
         languageName = "Français"
         contentDir = "content/fr"
-        title = "Nuage privé du GC"
+        title = "LKJSDLKJF Rampe de Lancement"
         weight = 3
         [fr.params]
             description = "Hébergement infonuagique souverain pour le gouvernement du Canada"
