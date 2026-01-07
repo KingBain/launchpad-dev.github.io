@@ -27,7 +27,7 @@
     languageCode = 'fr-CA'
     languageName = "Français"
     contentDir = "content/fr"
-    title = "LKJSDLKJF Rampe de Lancement"
+    title = "SIUGC: Rampe de Lancement"
     weight = 3
     [fr.params]
         description = "Hébergement infonuagique souverain pour le gouvernement du Canada"
