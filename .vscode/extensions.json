@@ -3,7 +3,8 @@
     "budparr.language-hugo-vscode",
     "tamasfe.even-better-toml",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
+    "prettier.prettier-vscode",
     "redhat.vscode-yaml"
-  ]
+  ],
+  
 }
