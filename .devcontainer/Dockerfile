@@ -1,9 +1,6 @@
 ARG NODE_VERSION=18
 FROM node:${NODE_VERSION}
 
-ARG HUGO_VERSION=0.126.3
-ARG GO_VERSION=1.22.3
-
 COPY versions.env /tmp/versions.env
 
 RUN apt-get update && \
