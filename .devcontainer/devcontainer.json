@@ -22,6 +22,7 @@
       ]
     }
   },
+  "forwardPorts": [1313, 3000],
   "remoteUser": "node",
   "postCreateCommand": "npm install && npm run build"
 }
