@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y ca-certificates openssl git curl make && \
     rm -rf /var/lib/apt/lists/*
 
-RUN set -euo pipefail && \
+RUN set -eu && \
     if [ -f /tmp/versions.env ]; then \
       set -a && . /tmp/versions.env && set +a; \
     fi && \
